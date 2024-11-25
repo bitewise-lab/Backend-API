@@ -2,7 +2,7 @@ runtime: nodejs16
 
 env_variables:
   DB_USER: your-db-user
-  DB_HOST: your-db-host
+  CLOUD_SQL_CONNECTION_NAME: my-project-id:us-central1:my-instance-id
   DB_NAME: your-db-name
   DB_PASSWORD: your-db-password
   DB_PORT: 5432
