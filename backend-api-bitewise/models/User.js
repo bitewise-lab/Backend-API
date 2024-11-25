@@ -1,4 +1,4 @@
-const db = require('../config/cloudstorage');
+const db = require('../config/cloudsql');
 
 const User = {
     create: (username, password, callback) => {
