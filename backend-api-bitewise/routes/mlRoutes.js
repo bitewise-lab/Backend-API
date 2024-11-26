@@ -1,7 +1,7 @@
 const express = require('express');
-const authrouter = express.Router();
+const mlroute = express.Router();
 const { getPredictionHandler } = require('../controllers/mlController');
 
-authrouter.post('/predict', getPredictionHandler);
+mlrouter.post('/predict', getPredictionHandler);
 
-module.exports = authrouter;
+module.exports = mlroute;
