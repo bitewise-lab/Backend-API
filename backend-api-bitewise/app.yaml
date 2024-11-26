@@ -1,11 +1,15 @@
-runtime: nodejs16
+runtime: nodejs23
 
 env_variables:
-  DB_USER: your-db-user
-  CLOUD_SQL_CONNECTION_NAME: my-project-id:us-central1:my-instance-id
-  DB_NAME: your-db-name
-  DB_PASSWORD: your-db-password
-  DB_PORT: 5432
+  DB_USER: root
+  CLOUD_SQL_CONNECTION_NAME: your-project-id:us-central1:your-instance-id
+  DB_NAME: db-name
+  DB_PASSWORD: db-password
+  DB_PORT: 3306
+  GCLOUD_PROJECT_ID:
+  GCLOUD_KEYFILE: './key.json'
+  GCLOUD_BUCKET_NAME:
+  JWT_SECRET:
   ML_MODEL_URL: https://your-cloud-run-url.a.run.app/predict
 
 handlers:
