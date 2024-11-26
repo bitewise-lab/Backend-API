@@ -1,6 +1,8 @@
 runtime: nodejs23
 
 env_variables:
+  PORT:
+  HOST:
   DB_USER: root
   CLOUD_SQL_CONNECTION_NAME: your-project-id:us-central1:your-instance-id
   DB_NAME: db-name
