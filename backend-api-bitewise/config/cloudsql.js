@@ -11,8 +11,11 @@ const db = mysql.createConnection({
 });
 
 db.connect((err) => {
-    if (err) throw err;
-    console.log('Connected to Cloud SQL MySQL Database');
+    if (err) {
+        console.error('Error connecting to the database:', err.message);
+    } else {
+        console.log('Connected to Cloud SQL MySQL Database');
+    }
 });
 
 module.exports = db;
