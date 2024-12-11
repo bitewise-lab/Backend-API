@@ -1,0 +1,23 @@
+runtime: nodejs20
+service: backend
+
+env_variables:
+  CLOUD_SQL_CONNECTION_NAME: bitewise-442800:asia-southeast2:bitewisetest
+  # DB_HOST: localhost
+  DB_USER: root
+  DB_NAME: bitewise
+  DB_PASSWORD: pisanghijau
+  DB_PORT: 3306
+  # GCLOUD_KEYFILE: './key.json'
+  GCLOUD_BUCKET_NAMEPROFILE: bitewise-bucket
+  GCLOUD_BUCKET_NAMEPOST: bitewise-post
+  ML_MODEL_COMPABILITY_URL: https://compatibility-risk-884015524655.asia-southeast2.run.app/predict
+  JWT_SECRET: 59099fb6db8395ecd6884c26e7f12589fb374950f591d7514d849f56b7944baa
+  GCLOUD_PROJECT_ID: bitewise-442800
+
+handlers:
+  - url: /static
+    static_dir: public/
+
+  - url: /.* 
+    script: auto
