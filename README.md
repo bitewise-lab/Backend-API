@@ -1,3 +1,10 @@
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/effa8109-fac3-4683-aaac-bd5ca749041b" alt="Express Logo" />
+  <img src="https://github.com/user-attachments/assets/60346a1f-0030-418f-9c06-4b96b300de79" alt="Download Logo" />
+</div>
+
+
 # Bitewise API
 This repository contains the source code for the Bitewise API, an ExpressJS and NodeJS-based API for the Bitewise project. These APIs provide an endpoint to interact with the Bitewise platform and perform various operations related to post creation, users, and detection/prediction systems.
 
@@ -20,4 +27,6 @@ See for more details on each endpoint, request/response format, and required aut
 
 ## Cloud Architecture
 
-![Arsitektur](https://github.com/user-attachments/assets/f1a22651-3a87-49a9-a569-a276d0db3a5a)
+
+![balajka](https://github.com/user-attachments/assets/c6d5a4a1-fe53-45fb-9772-9e62e3da5151)
+
